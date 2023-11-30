@@ -2,6 +2,8 @@
 
 public static class RandomExtensions
 {
+    public static RandomType<T> As<T>(this Random random) => new(random);
+
     public static bool NextBool(this Random random) => random.Next() % 2 == 0;
 
     public static byte NextByte(this Random random, byte min = byte.MinValue, byte max = byte.MaxValue) => 
