@@ -1,0 +1,6 @@
+# jetbrains
+.idea/
+
+# output
+bin/
+obj/
