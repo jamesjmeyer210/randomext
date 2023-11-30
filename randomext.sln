@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randomext", "randomext\randomext.csproj", "{B9A85B0B-6FE7-400B-A442-B0DCA5541655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randomext.Test", "randomext.Test\randomext.Test.csproj", "{577E412B-0DCF-414B-9098-9025509601DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A85B0B-6FE7-400B-A442-B0DCA5541655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A85B0B-6FE7-400B-A442-B0DCA5541655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A85B0B-6FE7-400B-A442-B0DCA5541655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A85B0B-6FE7-400B-A442-B0DCA5541655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577E412B-0DCF-414B-9098-9025509601DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577E412B-0DCF-414B-9098-9025509601DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577E412B-0DCF-414B-9098-9025509601DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577E412B-0DCF-414B-9098-9025509601DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
