@@ -1,6 +1,9 @@
 # jetbrains
 .idea/
 
+# settings
+*.sln.DotSettings.user
+
 # output
 bin/
 obj/
