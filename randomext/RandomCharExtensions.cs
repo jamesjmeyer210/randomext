@@ -2,7 +2,7 @@ namespace randomext;
 
 public static class RandomCharExtensions
 {
-    public static char Next(this RandomType<char> self, CharGroup group)
+    public static char Next(this RandomType<char> self, CharGroup group = CharGroup.Any)
     {
         return group switch
         {
@@ -22,7 +22,10 @@ public static class RandomCharExtensions
             },
             CharGroup.Invisible => self.Inner.NextChar('\u0000', '\u001F'),
             CharGroup.Readable => self.Inner.NextChar(' ', '~'),
-            _ => throw new NotImplementedException()
+            _ => self.Inner.NextChar()
         };
     }
+
+    public static char[] NextChars(this RandomType<char> self, int size) =>
+        self.NextArray(size, r => r.Inner.NextChar());
 }
