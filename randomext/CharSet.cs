@@ -1,6 +1,6 @@
 namespace randomext;
 
-public enum CharGroup
+public enum CharSet
 {
     Any,
     Numeric,
